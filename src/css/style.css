@@ -1,0 +1,159 @@
+.error,
+.taskMessages {
+    color: #c77079;
+    text-align: center;
+}
+
+.heroes {
+    display: flex;
+    margin-top: 10px;
+    border-top: solid #e9c5d3;
+    justify-content: space-evenly;
+
+}
+
+.AppContainer {
+    border: solid #e9c5d3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #f8eeed; */
+
+}
+
+.h1 {
+    text-align: center;
+}
+
+.assignmentsContainer {
+    border-top: solid #e9c5d3;
+    border-top-width: 1px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px;
+}
+
+.todoAssignments,
+.inProgressAssignments,
+.doneAssignments {
+    border: 1px solid #e9c5d3;
+    height: 300;
+    width: 300;
+    margin: 10px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+    flex-wrap: wrap;
+    /* background-color: white; */
+}
+
+.todoAssignments {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.doneAssignments:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.inProgressAssignments:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* knapp design från css scan hemsidan */
+.button-56 {
+    align-items: right;
+    /* background-color: #fee6e3; */
+
+    background-color: #e9c5d3;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    height: 48px;
+    line-height: 24px;
+    max-width: 50%;
+    padding: 0 25px;
+    position: relative;
+    touch-action: manipulation;
+    margin-left: 5px;
+    align-items: right;
+}
+
+.button-56:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+
+}
+
+.button-56:hover:after {
+    transform: translate(0, 0);
+}
+
+.button-56:active {
+    background-color: #bed1cd;
+    outline: 0;
+}
+
+.button-56:hover {
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    .button-56 {
+        padding: 0 40px;
+    }
+}
+
+
+select {
+    border: none;
+    width: 120;
+    padding: 15;
+    color: white;
+    background-color: black;
+    border-radius: 0.25em;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
+select option {
+    margin: 10px;
+    color: #fee6e3;
+}
+
+select option[value="Elektra"] {
+    background: #f78381;
+}
+
+select option[value="BatGirl"] {
+    background: #d8878f;
+}
+
+select option[value="WonderWoman"] {
+    background: #efa9a0;
+}
