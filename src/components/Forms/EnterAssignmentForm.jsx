@@ -9,7 +9,6 @@ function EnterAssignmentForm() {
     const [status, setStatus] = useState('To Do');
     const [category, setCategory] = useState('');
     const [assigned, setAssigned] = useState('');
-    // const [hero, setHero] = useState('');
 
 
     const Elektra = {
@@ -44,6 +43,7 @@ function EnterAssignmentForm() {
             })
             .catch((error) => {
                 console.error('Assignment was not added', error)
+                alert('assignment was not added')
             })
     }
 
@@ -53,27 +53,8 @@ function EnterAssignmentForm() {
 
     function handleCategory(event) {
         event.preventDefault()
-        // const selectedCategory = event.target.value;
-        // setCategory(selectedCategory);
         setCategory(event.target.value)
 
-
-
-        // switch (selectedCategory) {
-        //     case "Elektra":
-        //         setHero(Elektra);
-        //         break;
-        //     case "BatGirl":
-        //         setHero(BatGirl);
-        //         break;
-        //     case "WonderWoman":
-        //         setHero(WonderWoman);
-        //         break;
-        //     default:
-        //         setHero('');
-
-        //         break;
-        // }
     }
 
     return (

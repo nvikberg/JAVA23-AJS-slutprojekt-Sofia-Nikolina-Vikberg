@@ -32,6 +32,7 @@ function AssignToForm({ assignmentId }) {
             })
             .catch((error) => {
                 console.log('Nope, she didnt want that assignment', error)
+                alert('Nope, she didnt want that assignment')
                 setError(true)
 
 
