@@ -6,8 +6,6 @@ import ToDoCards from "./Cards/ToDoCards.jsx";
 import InProgressCards from "./Cards/InProgressCards.jsx";
 import DoneCards from "./Cards/DoneCards.jsx";
 import Error from "./Error.jsx";
-import SuperHeroes from "./SuperHeroes/HeroImage.jsx";
-import HeroesCard from "./SuperHeroes/HeroesCard.jsx";
 // import HeroImage from "./HeroImage.jsx";
 
 //kvar att göra: Visa taskMessage i GUI när assignment har blivit tillagd

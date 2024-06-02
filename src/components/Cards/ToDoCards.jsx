@@ -9,7 +9,7 @@ function Cards({assignmentId}) {
         <div className="todoAssignments">
             <h1>{assignmentId.status}</h1>
             {/* <HeroesCard/> */}
-            <h4>Assignement: {assignmentId.assignment}</h4>
+            <h4>Assignment: {assignmentId.assignment}</h4>
             <p>Assigned to: {assignmentId.assigned}</p>
             <p>Team: {assignmentId.category}</p>
             <AssignToForm assignmentId={assignmentId.key} />
