@@ -16,7 +16,7 @@ Main page consists of 3 different statuses, To Do, In Progress and Done
 
 
 
-
+<br>
 
 Error message showing when there is no assignments in the database
 <img width="1275" alt="heroescanrest" src="https://github.com/nvikberg/JAVA23-AJS-slutprojekt-Sofia-Nikolina-Vikberg/assets/149555646/0c907cbe-f8f5-4162-be8b-58d70142fe87">
