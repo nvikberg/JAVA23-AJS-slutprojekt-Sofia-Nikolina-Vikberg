@@ -7,7 +7,7 @@
     display: flex;
     margin-top: 10px;
     border-top: solid #e9c5d3;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 
 }
 
@@ -20,9 +20,6 @@
 
 }
 
-.h1 {
-    text-align: center;
-}
 
 .assignmentsContainer {
     border-top: solid #e9c5d3;
@@ -45,7 +42,7 @@
     width: 300;
     margin: 10px 0;
     padding: 20px;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     text-align: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
