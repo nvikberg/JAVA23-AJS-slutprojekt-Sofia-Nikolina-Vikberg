@@ -3,6 +3,9 @@ import { assignmentRef } from "../../utils/firebaseConfig";
 import { update, push } from "firebase/database";
 import HeroesCard from "../SuperHeroes/HeroesCard";
 
+//This function is the main form in the top of the page, it adds a new assignment to the database with the user input and selection. 
+//It's also showing 3 images of the superheroes 
+
 function EnterAssignmentForm() {
 
     let [input, setInput] = useState('')

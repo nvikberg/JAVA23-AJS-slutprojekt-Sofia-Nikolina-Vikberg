@@ -14,8 +14,6 @@ function InProgressCards({ assignmentId }) {
 
         const currentAssignment = child(assignmentRef, assignmentId.key);
 
-        // console.log(assignmentId)
-
         await update(currentAssignment, {
             status: status
         })

@@ -3,6 +3,8 @@ import { update, ref, set, getDatabase, child } from "firebase/database";
 import { useState } from "react";
 import Error from "../Error";
 
+//This "Assign To" form is located on the "To Do Card" and it updates 2 items in the database - 
+//1. the status to "In progress" 2. "Assigned to" (text input from this form from the user)
 function AssignToForm({ assignmentId }) {
 
     let assignedText = '';
@@ -19,7 +21,6 @@ function AssignToForm({ assignmentId }) {
 
 
         const currentAssignment = child(assignmentRef, assignmentId)
-        // console.log(assignmentId)
 
         await update(currentAssignment, {
             assigned: assignedText,
@@ -27,12 +28,11 @@ function AssignToForm({ assignmentId }) {
         })
             .then(() => {
                 console.log('Assignment was assigned to hero')
-                // console.log(assignedText, status, assignmentId)
                 setError(false)
             })
             .catch((error) => {
                 console.log('Nope, she didnt want that assignment', error)
-                alert('Nope, she didnt want that assignment')
+                alert('Nope, she didnt want that assignment', error)
                 setError(true)
 
 

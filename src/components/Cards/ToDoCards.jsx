@@ -8,7 +8,6 @@ function Cards({assignmentId}) {
     return (
         <div className="todoAssignments">
             <h1>{assignmentId.status}</h1>
-            {/* <HeroesCard/> */}
             <h4>Assignment: {assignmentId.assignment}</h4>
             <p>Assigned to: {assignmentId.assigned}</p>
             <p>Team: {assignmentId.category}</p>
