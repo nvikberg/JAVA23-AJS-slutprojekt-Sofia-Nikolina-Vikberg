@@ -8,7 +8,6 @@ function InProgressCards({ assignmentId }) {
     const [error, setError] = useState(false);
 
 
-
     async function handleButton(event) {
         event.preventDefault();
 
@@ -23,6 +22,7 @@ function InProgressCards({ assignmentId }) {
             })
             .catch((error) => {
                 console.log('Status was not changed to done', error)
+                alert('Hero did not complete assignment yet and status was not changed to done', error)
                 setError(true)
 
             });
@@ -35,10 +35,6 @@ function InProgressCards({ assignmentId }) {
             <p>Assigned to: {assignmentId.assigned}</p>
             <p>Team: {assignmentId.category}</p>
             <button className="button-56" onClick={handleButton}>Done</button>
-       <div>
-       {error && <Error errorMessage="Hero did not complete assignment yet, status is not changed to Done" />}
-
-       </div>
         </div>
     )
 }

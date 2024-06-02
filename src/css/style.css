@@ -1,5 +1,4 @@
-.error,
-.taskMessages {
+.error {
     color: #c77079;
     text-align: center;
 }
@@ -143,7 +142,7 @@ select {
 
 select option {
     margin: 10px;
-    color: #fee6e3;
+    /* color: #fee6e3; */
 }
 
 select option[value="Elektra"] {
@@ -151,9 +150,9 @@ select option[value="Elektra"] {
 }
 
 select option[value="BatGirl"] {
-    background: #d8878f;
+    background: #bed1cd;
 }
 
 select option[value="WonderWoman"] {
-    background: #efa9a0;
+    background: #e9c5d3;
 }

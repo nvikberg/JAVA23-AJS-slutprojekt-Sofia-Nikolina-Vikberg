@@ -1,6 +1,4 @@
 import AssignToForm from "../Forms/AssignToForm";
-import HeroesCard from "../SuperHeroes/HeroesCard";
-
 
 function Cards({assignmentId}) {
 
