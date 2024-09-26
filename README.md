@@ -1,12 +1,18 @@
-Slutprojekt för Avancerad JavaScript
+# Slutprojekt för Avancerad JavaScript
 
-By Nikolina Vikberg 2024 Malmö
-Grit Academy 
+## By Nikolina Vikberg, Grit Academy Malmö
 
-https://nvikberg.github.io/JAVA23-AJS-slutprojekt-Sofia-Nikolina-Vikberg/
+### https://nvikberg.github.io/JAVA23-AJS-slutprojekt-Sofia-Nikolina-Vikberg/
 
-En taskboard app skapad med firebase bibliotek och react
+Project Assignment: Create a scrum board where the user can 
+- Add new tasks and decide under which category the task fits in
+- Assign a task to a user
+- Mark when a task is done
+- Remove task when finished
 
+Created with firebase library and react
+
+How the app works: <br>
 Superhero teams Elektra, BatGirl and SuperWoman take on world problems through their assignments from the task board..
 
 Images used from: https://akabab.github.io/superhero-api/api/
